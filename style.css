@@ -1,0 +1,240 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.TopBanner{
+    text-align: center;
+    background-image: url(images/donation0.jpg);
+    width: 100%;
+    height: 450px;
+    color: white;
+    font-weight: 1000;
+    padding-top: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#TopbannerH1{
+    font-size: 50px;
+}
+.TopBanner p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.DonateNowButton{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(10, 72, 206);
+    padding: 15px 30px;
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 10px;
+    
+}
+
+/* Top banner ends  */
+
+/* Donate tdy section starts  */
+.DonateTdy{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.DonateTdy h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.DonateTdy p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.amounts{
+    display: flex;
+    margin-left: 375px;
+    margin-bottom: 90px;
+}
+.amount{
+    padding-left: 105px; 
+    color: rgb(0, 0, 0);
+    width: 30px;
+    height: 65px;
+    border: 0.5px black;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(86, 80, 92, 0.075);
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+#TwoHundreds{
+    color: aliceblue;
+    width: 30px;
+    height: 60px;
+    border: 2px solid black;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rebeccapurple;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+#OtherAmount{
+    border: none;
+    text-decoration: none;
+    font-size:25px;
+    margin-left: 85px;
+    border
+}
+hr{
+    width: 800px;
+    margin-bottom: 60px;
+}
+#DonateNowButton{
+    margin-bottom: 130px;
+}
+
+/* Donation part ends  */
+
+/* Our Donation Plan parts starts  */
+.donationPlan{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Plans{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 110px;
+}
+.Services{
+    width: 31%;
+    height: 300px;
+    margin: 1%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    
+    
+}
+
+.donationPlan h1{
+  font-size: 30px;
+   font-weight: 700;
+}
+
+.donationPlan p{
+  font-size: 20px;
+   font-weight: 700;
+}
+
+#FoodBG{
+    background-color: aqua;
+}
+#ShelterBG{
+    background-color: antiquewhite;
+}
+#EducationBG{
+    background-color: burlywood;
+}
+
+/* Contrubution first section  */
+.contribution{
+    display: flex;
+    margin-left: 350px;
+    margin-bottom: 90px;
+
+   
+}
+
+.contribution #FirstImg{
+    width: 550px;
+    height: 500px;
+    padding-left: 150px;
+}
+.contribution #SecondImg{
+    width: 550px;
+    height: 500px;
+    padding-right: 100px;
+}
+
+.contribution h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.contribution p{
+    font-size: 20px;
+    margin-bottom: 120px;
+}
+
+/* Update section  */
+
+.UpdateSection{
+    text-align: center;
+    padding-top: 50px;
+}
+.UpdateSection h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.UpdateSection p{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.InputEmail{
+    display: flex;
+    background-color: rgb(43, 226, 165);
+    width: 600px;
+    height: 150px;
+    margin-left: 600px;
+    padding-top: 100px;
+    padding-left: 78px;
+
+}
+
+#email{
+    width: 400px;
+    height: 57px;
+    border: 2px solid rgb(172, 144, 93);
+    background-color: white;
+    font-size: 20px;
+    
+}
+.InputEmail a{
+    
+    text-decoration: none;
+    width: 110px;
+    height: 42px;
+    border: 2px solid rgb(172, 144, 93);
+    background-color: orangered;
+    font-size: 20px;
+    font-size-adjust: initial;
+    padding-top: 15px;
+    padding-left: 16px;
+    color: white;
+    border-radius: 15px;
+    font-size: 22px;
+   
+    
+}
+
+/* footer  */
+.BeHumble{
+    font-family: "Lobster", sans-serif;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(23, 32, 32);
+    color: rgb(247, 247, 247)
+}
+.footers{
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 80px;
+}

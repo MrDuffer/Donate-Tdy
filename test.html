@@ -1,0 +1,46 @@
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title> 
+          Blurred Background image in CSS 
+      </title> 
+    <style> 
+        .background{ 
+            height: 350px; 
+            margin: 0; 
+            font-family: Arial, Helvetica, sans-serif; 
+        } 
+        
+        .background { 
+            position: absolute; 
+            height: 100%; 
+            width: 100%; 
+            background-image: url( 
+            images/donation0.jpg); 
+            background-size: cover; 
+            background-position: center; 
+            filter: blur(2px); 
+            z-index: -1; 
+        } 
+        
+        .text-container { 
+            text-align: center; 
+        } 
+    </style> 
+</head> 
+    
+<body> 
+    <div class="background"> 
+    <div class="text-container"> 
+        <h1 style="color:green"> 
+            Welcome to Geeks for geeks</h1> 
+        <h3>Blurred Background Image</h3> 
+        <p> 
+            Example of css program to blur  
+            background image 
+          </p> 
+    </div> 
+    </div>
+</body> 
+</html>
